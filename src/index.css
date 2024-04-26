@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100dvw;
+  overflow-x: hidden;
+  color: gold;
+  background-image: url("../public/assets/images/black-background.jpg");
+}
+
+@layer utilities {
+  #left,
+  #right {
+    /* animation: fade 3s ease-in forwards; */
+    /* -webkit-box-shadow: -10px 10px 9px -4px rgba(69, 69, 69, 0.57);
+    -moz-box-shadow: -10px 10px 9px -4px rgba(69, 69, 69, 0.57);
+    box-shadow: -10px 10px 9px -4px rgba(69, 69, 69, 0.57); */
+  }
+  #info {
+    /* animation: fade 2s ease-in forwards; */
+
+    /* -webkit-box-shadow: 11px 10px 9px -4px rgba(69, 69, 69, 0.57);
+    -moz-box-shadow: 11px 10px 9px -4px rgba(69, 69, 69, 0.57);
+    box-shadow: 11px 10px 9px -4px rgba(69, 69, 69, 0.57); */
+  }
+
+  #about,
+  #customization {
+    background-image: url("../public/assets/images/black-background.jpg");
+    background-size: 100% 100%;
+  }
+}

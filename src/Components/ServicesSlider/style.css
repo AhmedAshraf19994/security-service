@@ -1,0 +1,36 @@
+#services {
+  .swiper {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    padding-bottom: 30px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background: gold;
+  }
+
+  .swiper-button-next , .swiper-button-prev {
+color: gold !important;  }
+}
+
